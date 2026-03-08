@@ -1,0 +1,55 @@
+{
+    "auth": {
+        "user": "TestUser916",
+        "password": "fTK4_*YnF/LJ"
+    },
+    "invalidLogins": [
+        {
+            "scenario": "invalidPassword",
+            "data": {
+                "user": "TestUser916",
+                "password": " fTK4_*YnF/LJ",
+                "error": "The specified username or password is incorrect."
+            }
+        },
+        {
+            "scenario": "emptyPassword",
+            "data": {
+                "user": "TestUser916",
+                "password": "",
+                "error": "The Password field is required."
+            }
+        },
+        {
+            "scenario": "emptyUserName",
+            "data": {
+                "user": "",
+                "password": "fTK4_*YnF/LJ",
+                "error": "The Username field is required."
+            }
+        },
+        {
+            "scenario": "bothFieldsInvalid",
+            "data": {
+                "user": "asdfasfasdf",
+                "password": "asdfasdfasdf",
+                "error": "The specified username or password is incorrect."
+            }
+        }
+    ],
+    "newEmp": {
+        "firstName": "Cesar",
+        "lastName": "Barragan",
+        "dependents": "10"
+    },
+    "editEmp": {
+        "firstName": "Alejandro",
+        "lastName": "Hernandez",
+        "dependents": "12"
+    },
+    "newAPIEmp": {
+        "firstName": "Cesar",
+        "lastName": "Barragan",
+        "dependents": 10
+    }
+}
