@@ -37,11 +37,11 @@ npx playwright install chromium
 
 1. **Run the Full Suite (UI + API) Headless:**
    ```bash
-   npx playwright test
+   npx playwright test --project=chromium
    ```
 2. **Run the Full Suite (UI + API) Headed:**
   ```bash
-  npx playwright test tests/UITest.spec.ts --headed
+  npx playwright test tests/UITest.spec.ts -project=chromium --headed
    ```
 
 ---
