@@ -1,0 +1,374 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Paylocity Benefits Dashboard" [ref=e5]:
+        - /url: /Prod/Benefits
+  - main [ref=e7]:
+    - table [ref=e9]:
+      - rowgroup [ref=e10]:
+        - row "Id Last Name First Name Dependents Salary Gross Pay Benefits Cost Net Pay Actions" [ref=e11]:
+          - columnheader "Id" [ref=e12]
+          - columnheader "Last Name" [ref=e13]
+          - columnheader "First Name" [ref=e14]
+          - columnheader "Dependents" [ref=e15]
+          - columnheader "Salary" [ref=e16]
+          - columnheader "Gross Pay" [ref=e17]
+          - columnheader "Benefits Cost" [ref=e18]
+          - columnheader "Net Pay" [ref=e19]
+          - columnheader "Actions" [ref=e20]
+      - rowgroup [ref=e21]:
+        - row "386bbdf4-1fc2-4361-9afe-ffc1490ef4c0 Alejandro Updated 5 52000.00 2000.00 134.62 1865.38  " [ref=e22]:
+          - cell "386bbdf4-1fc2-4361-9afe-ffc1490ef4c0" [ref=e23]
+          - cell "Alejandro" [ref=e24]
+          - cell "Updated" [ref=e25]
+          - cell "5" [ref=e26]
+          - cell "52000.00" [ref=e27]
+          - cell "2000.00" [ref=e28]
+          - cell "134.62" [ref=e29]
+          - cell "1865.38" [ref=e30]
+          - cell " " [ref=e31]:
+            - generic [ref=e32] [cursor=pointer]: 
+            - generic [ref=e33] [cursor=pointer]: 
+        - row "492f2042-5fcf-4149-b46d-f0196cb5ba45 Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e34]:
+          - cell "492f2042-5fcf-4149-b46d-f0196cb5ba45" [ref=e35]
+          - cell "Cesar" [ref=e36]
+          - cell "Barragan" [ref=e37]
+          - cell "10" [ref=e38]
+          - cell "52000.00" [ref=e39]
+          - cell "2000.00" [ref=e40]
+          - cell "230.77" [ref=e41]
+          - cell "1769.23" [ref=e42]
+          - cell " " [ref=e43]:
+            - generic [ref=e44] [cursor=pointer]: 
+            - generic [ref=e45] [cursor=pointer]: 
+        - row "4ce8b76e-5aba-46de-b433-e92dfe7511d2 Mick Jagger 11 52000.00 2000.00 250.00 1750.00  " [ref=e46]:
+          - cell "4ce8b76e-5aba-46de-b433-e92dfe7511d2" [ref=e47]
+          - cell "Mick" [ref=e48]
+          - cell "Jagger" [ref=e49]
+          - cell "11" [ref=e50]
+          - cell "52000.00" [ref=e51]
+          - cell "2000.00" [ref=e52]
+          - cell "250.00" [ref=e53]
+          - cell "1750.00" [ref=e54]
+          - cell " " [ref=e55]:
+            - generic [ref=e56] [cursor=pointer]: 
+            - generic [ref=e57] [cursor=pointer]: 
+        - row "4ecfd193-ceef-4482-a762-f6b1e6c7a804 Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e58]:
+          - cell "4ecfd193-ceef-4482-a762-f6b1e6c7a804" [ref=e59]
+          - cell "Cesar" [ref=e60]
+          - cell "Barragan" [ref=e61]
+          - cell "10" [ref=e62]
+          - cell "52000.00" [ref=e63]
+          - cell "2000.00" [ref=e64]
+          - cell "230.77" [ref=e65]
+          - cell "1769.23" [ref=e66]
+          - cell " " [ref=e67]:
+            - generic [ref=e68] [cursor=pointer]: 
+            - generic [ref=e69] [cursor=pointer]: 
+        - row "54aa2c49-3a80-4624-8854-935eecdee681 Cesar Barragan 0 52000.00 2000.00 38.46 1961.54  " [ref=e70]:
+          - cell "54aa2c49-3a80-4624-8854-935eecdee681" [ref=e71]
+          - cell "Cesar" [ref=e72]
+          - cell "Barragan" [ref=e73]
+          - cell "0" [ref=e74]
+          - cell "52000.00" [ref=e75]
+          - cell "2000.00" [ref=e76]
+          - cell "38.46" [ref=e77]
+          - cell "1961.54" [ref=e78]
+          - cell " " [ref=e79]:
+            - generic [ref=e80] [cursor=pointer]: 
+            - generic [ref=e81] [cursor=pointer]: 
+        - row "60ddf9cf-c374-4f2f-b0cb-d5bd265a9d45 Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e82]:
+          - cell "60ddf9cf-c374-4f2f-b0cb-d5bd265a9d45" [ref=e83]
+          - cell "Cesar" [ref=e84]
+          - cell "Barragan" [ref=e85]
+          - cell "10" [ref=e86]
+          - cell "52000.00" [ref=e87]
+          - cell "2000.00" [ref=e88]
+          - cell "230.77" [ref=e89]
+          - cell "1769.23" [ref=e90]
+          - cell " " [ref=e91]:
+            - generic [ref=e92] [cursor=pointer]: 
+            - generic [ref=e93] [cursor=pointer]: 
+        - row "6542a07e-07f6-4780-b425-3c632d7f6957 Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e94]:
+          - cell "6542a07e-07f6-4780-b425-3c632d7f6957" [ref=e95]
+          - cell "Cesar" [ref=e96]
+          - cell "Barragan" [ref=e97]
+          - cell "10" [ref=e98]
+          - cell "52000.00" [ref=e99]
+          - cell "2000.00" [ref=e100]
+          - cell "230.77" [ref=e101]
+          - cell "1769.23" [ref=e102]
+          - cell " " [ref=e103]:
+            - generic [ref=e104] [cursor=pointer]: 
+            - generic [ref=e105] [cursor=pointer]: 
+        - row "676be2b1-c96b-43e6-8069-294a04365c97 Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e106]:
+          - cell "676be2b1-c96b-43e6-8069-294a04365c97" [ref=e107]
+          - cell "Cesar" [ref=e108]
+          - cell "Barragan" [ref=e109]
+          - cell "10" [ref=e110]
+          - cell "52000.00" [ref=e111]
+          - cell "2000.00" [ref=e112]
+          - cell "230.77" [ref=e113]
+          - cell "1769.23" [ref=e114]
+          - cell " " [ref=e115]:
+            - generic [ref=e116] [cursor=pointer]: 
+            - generic [ref=e117] [cursor=pointer]: 
+        - row "6a8c04d0-a837-4cc5-86b8-530706595015 Alejandro Hernandez 12 52000.00 2000.00 269.23 1730.77  " [ref=e118]:
+          - cell "6a8c04d0-a837-4cc5-86b8-530706595015" [ref=e119]
+          - cell "Alejandro" [ref=e120]
+          - cell "Hernandez" [ref=e121]
+          - cell "12" [ref=e122]
+          - cell "52000.00" [ref=e123]
+          - cell "2000.00" [ref=e124]
+          - cell "269.23" [ref=e125]
+          - cell "1730.77" [ref=e126]
+          - cell " " [ref=e127]:
+            - generic [ref=e128] [cursor=pointer]: 
+            - generic [ref=e129] [cursor=pointer]: 
+        - row "847d5826-69b7-42f7-912a-027765e3427a Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e130]:
+          - cell "847d5826-69b7-42f7-912a-027765e3427a" [ref=e131]
+          - cell "Cesar" [ref=e132]
+          - cell "Barragan" [ref=e133]
+          - cell "10" [ref=e134]
+          - cell "52000.00" [ref=e135]
+          - cell "2000.00" [ref=e136]
+          - cell "230.77" [ref=e137]
+          - cell "1769.23" [ref=e138]
+          - cell " " [ref=e139]:
+            - generic [ref=e140] [cursor=pointer]: 
+            - generic [ref=e141] [cursor=pointer]: 
+        - row "8ac1553d-4d81-436b-b52d-1334f8808c31 Cesar Barragan 0 52000.00 2000.00 38.46 1961.54  " [ref=e142]:
+          - cell "8ac1553d-4d81-436b-b52d-1334f8808c31" [ref=e143]
+          - cell "Cesar" [ref=e144]
+          - cell "Barragan" [ref=e145]
+          - cell "0" [ref=e146]
+          - cell "52000.00" [ref=e147]
+          - cell "2000.00" [ref=e148]
+          - cell "38.46" [ref=e149]
+          - cell "1961.54" [ref=e150]
+          - cell " " [ref=e151]:
+            - generic [ref=e152] [cursor=pointer]: 
+            - generic [ref=e153] [cursor=pointer]: 
+        - row "8b38189c-e4b6-41d0-ae4a-a109b45f6ff6 Alejandro Hernandez 12 52000.00 2000.00 269.23 1730.77  " [ref=e154]:
+          - cell "8b38189c-e4b6-41d0-ae4a-a109b45f6ff6" [ref=e155]
+          - cell "Alejandro" [ref=e156]
+          - cell "Hernandez" [ref=e157]
+          - cell "12" [ref=e158]
+          - cell "52000.00" [ref=e159]
+          - cell "2000.00" [ref=e160]
+          - cell "269.23" [ref=e161]
+          - cell "1730.77" [ref=e162]
+          - cell " " [ref=e163]:
+            - generic [ref=e164] [cursor=pointer]: 
+            - generic [ref=e165] [cursor=pointer]: 
+        - row "98f4d566-b511-4513-9606-d660ad37a158 Cesar Barragan 0 52000.00 2000.00 38.46 1961.54  " [ref=e166]:
+          - cell "98f4d566-b511-4513-9606-d660ad37a158" [ref=e167]
+          - cell "Cesar" [ref=e168]
+          - cell "Barragan" [ref=e169]
+          - cell "0" [ref=e170]
+          - cell "52000.00" [ref=e171]
+          - cell "2000.00" [ref=e172]
+          - cell "38.46" [ref=e173]
+          - cell "1961.54" [ref=e174]
+          - cell " " [ref=e175]:
+            - generic [ref=e176] [cursor=pointer]: 
+            - generic [ref=e177] [cursor=pointer]: 
+        - row "a1b52308-29a4-41b2-86bd-bf3ba88d8ac5 Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e178]:
+          - cell "a1b52308-29a4-41b2-86bd-bf3ba88d8ac5" [ref=e179]
+          - cell "Cesar" [ref=e180]
+          - cell "Barragan" [ref=e181]
+          - cell "10" [ref=e182]
+          - cell "52000.00" [ref=e183]
+          - cell "2000.00" [ref=e184]
+          - cell "230.77" [ref=e185]
+          - cell "1769.23" [ref=e186]
+          - cell " " [ref=e187]:
+            - generic [ref=e188] [cursor=pointer]: 
+            - generic [ref=e189] [cursor=pointer]: 
+        - row "a9a4a237-12e6-4611-8075-bdccdba1f0f1 Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e190]:
+          - cell "a9a4a237-12e6-4611-8075-bdccdba1f0f1" [ref=e191]
+          - cell "Cesar" [ref=e192]
+          - cell "Barragan" [ref=e193]
+          - cell "10" [ref=e194]
+          - cell "52000.00" [ref=e195]
+          - cell "2000.00" [ref=e196]
+          - cell "230.77" [ref=e197]
+          - cell "1769.23" [ref=e198]
+          - cell " " [ref=e199]:
+            - generic [ref=e200] [cursor=pointer]: 
+            - generic [ref=e201] [cursor=pointer]: 
+        - row "ac483f30-99c5-462e-a1a0-93728d463e91 Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e202]:
+          - cell "ac483f30-99c5-462e-a1a0-93728d463e91" [ref=e203]
+          - cell "Cesar" [ref=e204]
+          - cell "Barragan" [ref=e205]
+          - cell "10" [ref=e206]
+          - cell "52000.00" [ref=e207]
+          - cell "2000.00" [ref=e208]
+          - cell "230.77" [ref=e209]
+          - cell "1769.23" [ref=e210]
+          - cell " " [ref=e211]:
+            - generic [ref=e212] [cursor=pointer]: 
+            - generic [ref=e213] [cursor=pointer]: 
+        - row "afbf0fd0-fd38-459d-b12c-a271f04d1302 Boris Yetlsin 16 52000.00 2000.00 346.15 1653.85  " [ref=e214]:
+          - cell "afbf0fd0-fd38-459d-b12c-a271f04d1302" [ref=e215]
+          - cell "Boris" [ref=e216]
+          - cell "Yetlsin" [ref=e217]
+          - cell "16" [ref=e218]
+          - cell "52000.00" [ref=e219]
+          - cell "2000.00" [ref=e220]
+          - cell "346.15" [ref=e221]
+          - cell "1653.85" [ref=e222]
+          - cell " " [ref=e223]:
+            - generic [ref=e224] [cursor=pointer]: 
+            - generic [ref=e225] [cursor=pointer]: 
+        - row "b2a9f6b0-9e93-4049-bdd1-a16768cfb674 Alejandro Hernandez 12 52000.00 2000.00 269.23 1730.77  " [ref=e226]:
+          - cell "b2a9f6b0-9e93-4049-bdd1-a16768cfb674" [ref=e227]
+          - cell "Alejandro" [ref=e228]
+          - cell "Hernandez" [ref=e229]
+          - cell "12" [ref=e230]
+          - cell "52000.00" [ref=e231]
+          - cell "2000.00" [ref=e232]
+          - cell "269.23" [ref=e233]
+          - cell "1730.77" [ref=e234]
+          - cell " " [ref=e235]:
+            - generic [ref=e236] [cursor=pointer]: 
+            - generic [ref=e237] [cursor=pointer]: 
+        - row "b83a6722-e073-47aa-ae2a-6f0804cf19c7 Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e238]:
+          - cell "b83a6722-e073-47aa-ae2a-6f0804cf19c7" [ref=e239]
+          - cell "Cesar" [ref=e240]
+          - cell "Barragan" [ref=e241]
+          - cell "10" [ref=e242]
+          - cell "52000.00" [ref=e243]
+          - cell "2000.00" [ref=e244]
+          - cell "230.77" [ref=e245]
+          - cell "1769.23" [ref=e246]
+          - cell " " [ref=e247]:
+            - generic [ref=e248] [cursor=pointer]: 
+            - generic [ref=e249] [cursor=pointer]: 
+        - row "bd2448e3-43fa-4b7c-b395-568283f6e834 Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e250]:
+          - cell "bd2448e3-43fa-4b7c-b395-568283f6e834" [ref=e251]
+          - cell "Cesar" [ref=e252]
+          - cell "Barragan" [ref=e253]
+          - cell "10" [ref=e254]
+          - cell "52000.00" [ref=e255]
+          - cell "2000.00" [ref=e256]
+          - cell "230.77" [ref=e257]
+          - cell "1769.23" [ref=e258]
+          - cell " " [ref=e259]:
+            - generic [ref=e260] [cursor=pointer]: 
+            - generic [ref=e261] [cursor=pointer]: 
+        - row "c2a6af9e-f048-4eac-8e15-32ca980b5c41 Alejandro Hernandez 12 52000.00 2000.00 269.23 1730.77  " [ref=e262]:
+          - cell "c2a6af9e-f048-4eac-8e15-32ca980b5c41" [ref=e263]
+          - cell "Alejandro" [ref=e264]
+          - cell "Hernandez" [ref=e265]
+          - cell "12" [ref=e266]
+          - cell "52000.00" [ref=e267]
+          - cell "2000.00" [ref=e268]
+          - cell "269.23" [ref=e269]
+          - cell "1730.77" [ref=e270]
+          - cell " " [ref=e271]:
+            - generic [ref=e272] [cursor=pointer]: 
+            - generic [ref=e273] [cursor=pointer]: 
+        - row "cdffd01c-c373-4174-838d-21be695069f5 Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e274]:
+          - cell "cdffd01c-c373-4174-838d-21be695069f5" [ref=e275]
+          - cell "Cesar" [ref=e276]
+          - cell "Barragan" [ref=e277]
+          - cell "10" [ref=e278]
+          - cell "52000.00" [ref=e279]
+          - cell "2000.00" [ref=e280]
+          - cell "230.77" [ref=e281]
+          - cell "1769.23" [ref=e282]
+          - cell " " [ref=e283]:
+            - generic [ref=e284] [cursor=pointer]: 
+            - generic [ref=e285] [cursor=pointer]: 
+        - row "d1144675-f99e-4ea1-93bf-14bc3f7c8c0b Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e286]:
+          - cell "d1144675-f99e-4ea1-93bf-14bc3f7c8c0b" [ref=e287]
+          - cell "Cesar" [ref=e288]
+          - cell "Barragan" [ref=e289]
+          - cell "10" [ref=e290]
+          - cell "52000.00" [ref=e291]
+          - cell "2000.00" [ref=e292]
+          - cell "230.77" [ref=e293]
+          - cell "1769.23" [ref=e294]
+          - cell " " [ref=e295]:
+            - generic [ref=e296] [cursor=pointer]: 
+            - generic [ref=e297] [cursor=pointer]: 
+        - row "e0246f09-501c-4b5d-b52c-ed4ced6ebe49 Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e298]:
+          - cell "e0246f09-501c-4b5d-b52c-ed4ced6ebe49" [ref=e299]
+          - cell "Cesar" [ref=e300]
+          - cell "Barragan" [ref=e301]
+          - cell "10" [ref=e302]
+          - cell "52000.00" [ref=e303]
+          - cell "2000.00" [ref=e304]
+          - cell "230.77" [ref=e305]
+          - cell "1769.23" [ref=e306]
+          - cell " " [ref=e307]:
+            - generic [ref=e308] [cursor=pointer]: 
+            - generic [ref=e309] [cursor=pointer]: 
+        - row "e1efcaa4-dd5a-4236-b2ba-c501012cf840 Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e310]:
+          - cell "e1efcaa4-dd5a-4236-b2ba-c501012cf840" [ref=e311]
+          - cell "Cesar" [ref=e312]
+          - cell "Barragan" [ref=e313]
+          - cell "10" [ref=e314]
+          - cell "52000.00" [ref=e315]
+          - cell "2000.00" [ref=e316]
+          - cell "230.77" [ref=e317]
+          - cell "1769.23" [ref=e318]
+          - cell " " [ref=e319]:
+            - generic [ref=e320] [cursor=pointer]: 
+            - generic [ref=e321] [cursor=pointer]: 
+        - row "e647e152-3e97-4591-9474-a2e257023c91 Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e322]:
+          - cell "e647e152-3e97-4591-9474-a2e257023c91" [ref=e323]
+          - cell "Cesar" [ref=e324]
+          - cell "Barragan" [ref=e325]
+          - cell "10" [ref=e326]
+          - cell "52000.00" [ref=e327]
+          - cell "2000.00" [ref=e328]
+          - cell "230.77" [ref=e329]
+          - cell "1769.23" [ref=e330]
+          - cell " " [ref=e331]:
+            - generic [ref=e332] [cursor=pointer]: 
+            - generic [ref=e333] [cursor=pointer]: 
+        - row "ea331c81-3e1f-4657-89f5-ec39f2bd605e Cesar Barragan 10 52000.00 2000.00 230.77 1769.23  " [ref=e334]:
+          - cell "ea331c81-3e1f-4657-89f5-ec39f2bd605e" [ref=e335]
+          - cell "Cesar" [ref=e336]
+          - cell "Barragan" [ref=e337]
+          - cell "10" [ref=e338]
+          - cell "52000.00" [ref=e339]
+          - cell "2000.00" [ref=e340]
+          - cell "230.77" [ref=e341]
+          - cell "1769.23" [ref=e342]
+          - cell " " [ref=e343]:
+            - generic [ref=e344] [cursor=pointer]: 
+            - generic [ref=e345] [cursor=pointer]: 
+        - row "f46fb0fd-a8b7-4fbc-914f-9cd2dfc2fd7a asdfdasf ssss 3 52000.00 2000.00 96.15 1903.85  " [ref=e346]:
+          - cell "f46fb0fd-a8b7-4fbc-914f-9cd2dfc2fd7a" [ref=e347]
+          - cell "asdfdasf" [ref=e348]
+          - cell "ssss" [ref=e349]
+          - cell "3" [ref=e350]
+          - cell "52000.00" [ref=e351]
+          - cell "2000.00" [ref=e352]
+          - cell "96.15" [ref=e353]
+          - cell "1903.85" [ref=e354]
+          - cell " " [ref=e355]:
+            - generic [ref=e356] [cursor=pointer]: 
+            - generic [ref=e357] [cursor=pointer]: 
+        - row "f6210af7-42cc-4957-96ab-3aec61c4df79 Alejandro Hernandez 12 52000.00 2000.00 269.23 1730.77  " [ref=e358]:
+          - cell "f6210af7-42cc-4957-96ab-3aec61c4df79" [ref=e359]
+          - cell "Alejandro" [ref=e360]
+          - cell "Hernandez" [ref=e361]
+          - cell "12" [ref=e362]
+          - cell "52000.00" [ref=e363]
+          - cell "2000.00" [ref=e364]
+          - cell "269.23" [ref=e365]
+          - cell "1730.77" [ref=e366]
+          - cell " " [ref=e367]:
+            - generic [ref=e368] [cursor=pointer]: 
+            - generic [ref=e369] [cursor=pointer]: 
+    - button "Add Employee" [ref=e370] [cursor=pointer]
+  - contentinfo [ref=e371]:
+    - generic [ref=e372]: © 2026 - Paylocity
+```
