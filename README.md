@@ -47,4 +47,5 @@ npx playwright install chromium
 ---
 
 ## Report
+test-results/bug-report/paylocity_benefits_ui_api_bugs.pdf
 
