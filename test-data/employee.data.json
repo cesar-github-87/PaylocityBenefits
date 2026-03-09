@@ -51,5 +51,79 @@
         "firstName": "Cesar",
         "lastName": "Barragan",
         "dependents": 10
-    }
+    },
+    "invalidEmp": [
+        {
+            "scenario": "emptyFirstName",
+            "data": {
+                "firstName": "",
+                "lastName": "Barragan",
+                "dependents": 10,
+                "errorMessage": "The FirstName field is required."
+            }
+        },
+        {
+            "scenario": "emptyLastName",
+            "data": {
+                "firstName": "Cesar",
+                "lastName": "",
+                "dependents": 10,
+                "errorMessage": "The LastName field is required."
+            }
+        },
+        {
+            "scenario": "longLastName",
+            "data": {
+                "lastName": "aasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfas",
+                "firstName": "Cesar",
+                "dependents": 10,
+                "errorMessage": "The field LastName must be a string with a maximum length of 50."
+            }
+        },
+        {
+            "scenario": "longFirsttName",
+            "data": {
+                "firstName": "aasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfas",
+                "lastName": "Barragan",
+                "dependents": 10,
+                "errorMessage": "The field FirstName must be a string with a maximum length of 50."
+            }
+        },
+        {
+            "scenario": "negativeDependants",
+            "data": {
+                "firstName": "Cesar",
+                "lastName": "Barragan",
+                "dependents": -1,
+                "errorMessage": "The field Dependants must be between 0 and 32."
+            }
+        },
+        {
+            "scenario": "outOfRangeDependants",
+            "data": {
+                "firstName": "Cesar",
+                "lastName": "Barragan",
+                "dependents": 33,
+                "errorMessage": "The field Dependants must be between 0 and 32."
+            }
+        },
+        {
+            "scenario": "nonAlphaNumericName",
+            "data": {
+                "firstName": ":",
+                "lastName": "Barragan",
+                "dependents": 3,
+                "errorMessage": "The field firstName must be between alphanumeric."
+            }
+        },
+        {
+            "scenario": "nonAlphaNumericLastName",
+            "data": {
+                "firstName": "Cesarf",
+                "lastName": ":",
+                "dependents": 3,
+                "errorMessage": "The field lastName must be between alphanumeri."
+            }
+        }
+    ]
 }

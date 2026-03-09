@@ -215,15 +215,35 @@ test.describe(() => {
         expect(exists).toBeFalsy();
     });
 
-   
+
 
     test('TC008_API_DELETE_Invalid_ID', async ({ request }) => {
         const response = await request.delete('api/employees/123-abc-no-valid-uuid', {
             headers: AUTH_HEADER
         });
-        
+
         expect(response.status()).toBe(405);
     });
+
+    for (let invalidEmp of testData.invalidEmp) {
+
+        test(`TC009_API_Invalid Employee Data-${invalidEmp.scenario}`, async ({ request }) => {
+            const response = await request.post('api/employees/', {
+                headers: AUTH_HEADER,
+                data: {
+                    firstName: invalidEmp.data.firstName,
+                    lastName: invalidEmp.data.lastName,
+                    dependants: invalidEmp.data.dependents
+                }
+            });
+
+            expect.soft(response.status()).toBe(400)
+            const jsonResponse = await response.json()
+            expect.soft(jsonResponse[0].errorMessage).toBe(invalidEmp.data.errorMessage)
+
+
+        })
+    }
 
 
 });
