@@ -46,9 +46,13 @@ test("TC001-UI-Add_Employee", async ({ page }) => {
 
     console.log(await response.json())
     const responseJson = await response.json();
+    const empID = responseJson.id;
+
+    const newRow = page.locator(`//tr[td[text()='${empID}']]`); //It was failing at headless mode
+    await expect(newRow).toBeVisible({ timeout: 10000 }); 
     await expect(page.locator("//tbody//tr")).toHaveCount(empAmount + 1);
 
-    const empID = responseJson.id;
+    
 
     //I should see the employee in the table 
     console.log("Emp ID= ", empID);
@@ -78,7 +82,6 @@ test("TC001-UI-Add_Employee", async ({ page }) => {
     expect.soft(empInfo.nPay).toBe(netPay.toFixed(2))  //NetPay 
     expect.soft(empInfo.salary).toBe(salary.toFixed(2)) //Salayr
     expect.soft(empInfo.grossP).toBe(grossPay.toFixed(2))
-
 
 })
 
