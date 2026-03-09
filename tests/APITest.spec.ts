@@ -166,9 +166,10 @@ test.describe(() => {
         const employeesResp = await request.get('api/employees/', { headers: AUTH_HEADER });
         const employees = await employeesResp.json()
         const firstID = employees[0].id
-        //console.log("from the list:\n", employees[0])
+        console.log("from the list:\n", employees[0])
 
         const response = await request.get('api/employees/' + firstID, { headers: AUTH_HEADER });
+        console.log('api/employees/' + firstID)
 
 
         expect.soft(response.status()).toBe(200);
@@ -181,7 +182,7 @@ test.describe(() => {
 
     });
 
-    test('TC007_API_GET-Get_WrongEmployee_id', async ({ request }) => {
+    test('TC008_API_GET-Get_WrongEmployee_id', async ({ request }) => {
 
 
         const response = await request.get('api/employees/222a22ae-2b22-2e22-ac11-222cd2a22222', { headers: AUTH_HEADER });
@@ -191,7 +192,7 @@ test.describe(() => {
 
     });
 
-    test('TC008_API_DELETE_first_employee', async ({ request }) => {
+    test('TC009_API_DELETE_first_employee', async ({ request }) => {
 
         const listResponse = await request.get('api/employees', { headers: AUTH_HEADER });
         const employees = await listResponse.json();
@@ -217,7 +218,7 @@ test.describe(() => {
 
 
 
-    test('TC008_API_DELETE_Invalid_ID', async ({ request }) => {
+    test('TC010_API_DELETE_Invalid_ID', async ({ request }) => {
         const response = await request.delete('api/employees/123-abc-no-valid-uuid', {
             headers: AUTH_HEADER
         });
@@ -227,7 +228,7 @@ test.describe(() => {
 
     for (let invalidEmp of testData.invalidEmp) {
 
-        test(`TC009_API_Invalid Employee Data-${invalidEmp.scenario}`, async ({ request }) => {
+        test(`TC0011_API_Invalid Employee Data-${invalidEmp.scenario}`, async ({ request }) => {
             const response = await request.post('api/employees/', {
                 headers: AUTH_HEADER,
                 data: {
@@ -242,7 +243,7 @@ test.describe(() => {
             expect.soft(jsonResponse[0].errorMessage).toBe(invalidEmp.data.errorMessage)
 
 
-        }) 
+        })
     }
 
 

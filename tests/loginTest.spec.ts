@@ -12,6 +12,9 @@ test('TC001_Login_Valid-Login', async ({ page }) => {
     await loginP.enterPassword(testData.auth.password);
     await loginP.clickLogin();
 
+    const title = page.locator(`//header`); //It was failing in headless mode
+    await expect(title).toBeVisible({ timeout: 10000 })
+    
     expect(page.locator("//header")).toContainText("Paylocity Benefits Dashboard");
 
 });
