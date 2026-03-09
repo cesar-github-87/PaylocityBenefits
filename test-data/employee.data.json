@@ -19,7 +19,7 @@
                 "password": "",
                 "error": "The Password field is required."
             }
-        },
+        }, 
         {
             "scenario": "emptyUserName",
             "data": {
